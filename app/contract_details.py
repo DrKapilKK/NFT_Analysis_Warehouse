@@ -2,8 +2,7 @@ from web3 import Web3
 from datetime import datetime
 from dotenv import load_dotenv
 import os
-from common import common_utils
-from common.common_utils import get_contract_creation_block
+from app.common.common_utils import get_contract_creation_block
 
 # Replace with your Infura project URL (for Mainnet)
 load_dotenv()
